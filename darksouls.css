@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.darksoulssearcher {
+    color: white;
+    font-size: 80px;
+    margin-right: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.bonfire {
+    width: 60px;
+    height: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    padding: 20px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    margin-top: 20px;
+}
+
+.search-form {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+    border-radius: 4px 0 0 4px;
+    background-color: #222;
+    color: #f8f1c1;
+    outline: none;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #444;
+    color: #f8f1c1;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #666;
+}
